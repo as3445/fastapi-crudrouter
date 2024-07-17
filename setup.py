@@ -11,12 +11,12 @@ def get_version():
 
 
 setup(
-    name="fastapi-crudrouter",
+    name="fastapi-crudrouter-as3445",
     version=get_version(),
     author="Adam Watkins",
     author_email="hello@awtkns.com",
     packages=find_packages(exclude=("tests.*", "tests")),
-    url="https://github.com/awtkns/fastapi-crudrouter",
+    url="https://github.com/as3445/fastapi-crudrouter",
     documentation="https://fastapi-crudrouter.awtkns.com/",
     license="MIT",
     description="A dynamic FastAPI router that automatically creates CRUD routes for your models",
